@@ -2,7 +2,7 @@ const fs = require('fs');
 const ytdl = require('@distube/ytdl-core');
 
 const videoUrl = 'https://youtu.be/wui-1EYGuT4?si=MpOVm5xKo17mnAuQ';
-const output = 'd:/amir/assets/music.mp3';
+const output = 'music.mp3';
 
 console.log('Downloading music...');
 ytdl(videoUrl, { filter: 'audioonly', quality: 'highestaudio' })
